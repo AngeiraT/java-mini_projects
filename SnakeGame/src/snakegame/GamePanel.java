@@ -49,6 +49,21 @@ public class GamePanel extends JPanel {
         @Override
         public void keyPressed(KeyEvent e) {
             // Handle user key input here
+            int keyCode = e.getKeyCode();
+            
+            // Handle the key press event
+            if (keyCode == KeyEvent.VK_UP) {
+                // Handle up arrow key press
+                // Example: snake.moveUp();
+            } else if (keyCode == KeyEvent.VK_DOWN) {
+                // Handle down arrow key press
+                // Example: snake.moveDown();
+            } else if (keyCode == KeyEvent.VK_LEFT) {
+                // Handle left arrow key press
+                // Example: snake.moveLeft();
+            } else if (keyCode == KeyEvent.VK_RIGHT) {
+                // Handle right arrow key press
+                // Example: snake.moveRight();
         }
     }
 
